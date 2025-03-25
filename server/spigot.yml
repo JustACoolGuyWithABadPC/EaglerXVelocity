@@ -45,6 +45,8 @@ stats:
   disable-saving: false
   forced-stats: {}
 commands:
+  log: true
+  tab-complete: 0
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -53,8 +55,6 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
-  tab-complete: 0
 timings:
   enabled: true
   verbose: true
@@ -72,7 +72,6 @@ world-settings:
     merge-radius:
       exp: 3.0
       item: 2.5
-    mob-spawn-range: 4
     anti-xray:
       enabled: true
       engine-mode: 1
@@ -103,6 +102,7 @@ world-settings:
       sapling-modifier: 100
       wheat-modifier: 100
       netherwart-modifier: 100
+    mob-spawn-range: 4
     entity-activation-range:
       animals: 32
       monsters: 32
